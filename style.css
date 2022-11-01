@@ -7,14 +7,16 @@ body {
 header {
 	height: 80px;
 	background-color: #1B98E0;
+	color: white;
 }
 main {
-	height: 1000px;
+	height: 600px;
 	background-color: white;
 }
 footer {
 	height: 100px;
 	background-color: #13293D;
+	color: white;
 }
 .logo {
 	font-family: Yellowtail;
