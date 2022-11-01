@@ -17,6 +17,9 @@ footer {
 	height: 100px;
 	background-color: #13293D;
 	color: white;
+	display: flex;
+	justify-content: center;
+	vertical-align: middle;
 }
 .logo {
 	font-family: Yellowtail;
