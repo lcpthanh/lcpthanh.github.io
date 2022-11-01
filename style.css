@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&family=Inter:wght@400;600;800&display=swap');
+
+body {
+	font-family: Inter;
+	font-size: 16px;
+}
+header {
+	height: 80px;
+	background-color: #1B98E0;
+}
+main {
+	height: 1000px;
+	background-color: white;
+}
+footer {
+	height: 100px;
+	background-color: #13293D;
+}
+.logo {
+	font-family: Yellowtail;
+}
