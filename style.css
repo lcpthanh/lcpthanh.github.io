@@ -5,11 +5,14 @@ body {
 	font-size: 16px;
 }
 header {
+	display: flex;
 	height: 80px;
 	background-color: #1B98E0;
 	color: white;
+	align-items: center;
 }
 main {
+	display: flex;
 	height: 600px;
 	background-color: white;
 }
@@ -21,6 +24,38 @@ footer {
 	justify-content: center;
 	align-items: center;
 }
+footer p {
+	margin: 0;
+}
+.container {
+	max-width: 1440px;
+}
 .logo {
 	font-family: Yellowtail;
+	margin: 0;
+	font-size: 40px;
+}
+ul#nav > li {
+	padding-left: 60px;
+	display: inline;
+}
+nav {
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav a {
+	color: white;
+}
+#nav {
+	list-style-type: none;
+	display: inline;
+	color: #fff;
+	font-size: 16px;
+	position: relative;
+	text-align: right;
+	margin: auto 0;
+	justify-content: space-between;
+	font-weight: 600;
 }
