@@ -127,6 +127,31 @@ h2 {
 #sitemap {
 	height: 300px;
 	background-color: #006494;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+#sitemap h2 {
+	color: white;
+	margin-bottom: 40px;
+}
+#sitemap .logo {
+	margin-top: -30px;
+}
+#sitemap > .container {
+	display: flex;
+	justify-content: space-between;
+}
+#sitemap ul {
+	width: 253px;
+	margin: 0;
+}
+#sitemap li {
+	margin-left: 20px;
+	line-height: 2;
+}
+#sitemap p {
+	line-height: 2;
 }
 .more {
 	width: 180px;
