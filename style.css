@@ -158,7 +158,8 @@ h2 {
 	line-height: 2;
 }
 #about {
-	height: 523px;
+	height: 630px;
+	padding-top: 60px;
 }
 #about > .container {
 	display: flex;
