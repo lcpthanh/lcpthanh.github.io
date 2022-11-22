@@ -37,6 +37,11 @@ footer p {
 	margin: 0;
 	font-size: 40px;
 }
+.logo > a:hover {
+	opacity: 0.7;
+	color: white;
+	text-decoration: none;
+}
 ul#nav > li {
 	padding-left: 60px;
 	display: inline;
@@ -71,7 +76,6 @@ h2 {
 	text-align: right;
 	margin: auto 0;
 	justify-content: space-between;
-	font-weight: 600;
 }
 #introduce {
 	background-color: #fff;
@@ -153,6 +157,60 @@ h2 {
 #sitemap p {
 	line-height: 2;
 }
+#about {
+	height: 523px;
+}
+#about > .container {
+	display: flex;
+	justify-content: space-between;
+	background-image: url('./assets/about.png');
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	height: 100%;
+}
+#about > .container > div {
+	width: 720px;
+	margin-top: 40px;
+}
+#signin {
+	height: 630px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+#signin > .container {
+	background-image: url('./assets/signin.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+#signin > .container > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 50%;
+	text-align: center;
+	padding: 0 40px;
+}
+#signin form {
+	display: flex;
+	flex-direction: column;
+}
+#signin form > * {
+	margin: 5px 0;
+}
+.title {
+	font-size: 128px;
+	font-family: Yellowtail;
+	color: #1B98E0;
+}
+.title-sm {
+	font-size: 64px;
+	font-family: Yellowtail;
+	color: #1B98E0;
+}
 .more {
 	width: 180px;
 	height: 50px;
@@ -166,4 +224,28 @@ h2 {
 }
 .bold {
 	font-weight: 800;
+}
+.semi-bold {
+	font-weight: 600;
+}
+.current {
+	text-decoration: underline;
+	font-weight: 600;
+}
+input#submit {
+	background-color: #1b98e0;
+	color: white;
+	border-radius: 24px;
+	border-style: none;
+	height: 50px;
+}
+input#submit:hover {
+	opacity: 0.7;
+}
+input.field {
+	border-radius: 24px;
+	border-style: none;
+	background-color: #dee9fc;
+	height: 50px;
+	padding-left: 20px;
 }
