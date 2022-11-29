@@ -202,6 +202,21 @@ h2 {
 #signin form > * {
 	margin: 5px 0;
 }
+#timeline {
+	height: 1200px;
+}
+#timeline > .container {
+	margin-top: 60px;
+	max-height: 100%;
+}
+#timeline > .container > div:first-child {
+	height: 350px;
+	background-image: url('./assets/timeline.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+	display: flex;
+	align-items: center;
+}
 .title {
 	font-size: 128px;
 	font-family: Yellowtail;
@@ -232,6 +247,62 @@ h2 {
 .current {
 	text-decoration: underline;
 	font-weight: 600;
+}
+.cardwrap {
+	max-height: 800px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-top: 60px;
+}
+.cardwrap hr {
+	width: 450px;
+	margin: 1em 0;
+}
+.card {
+	width: 450px;
+	height: 140px;
+	background-color: rgba(27, 152, 224, 0.1);
+	border-radius: 12px;
+	border-style: none;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+.info {
+	height: 100px;
+	align-items: center;
+}
+.person {
+	text-align: center;
+	width: 80px;
+}
+.card > div {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+.card p {
+	margin: 0;
+}
+.booked {
+	background-color: #6AB32E;
+	align-items: center;
+	color: white;
+	border-radius: 0 0 12px 12px;
+	height: 40px;
+}
+.unbooked {
+	background-color: #F8BA00;
+	align-items: center;
+	color: white;
+	border-radius: 0 0 12px 12px;
+	height: 40px;
+}
+.booked > img {
+	margin-right: 28px;
+}
+.unbooked > img {
+	margin-right: 28px;
 }
 input#submit {
 	background-color: #1b98e0;
